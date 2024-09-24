@@ -20,3 +20,53 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+body {
+    background-color: #E34234;
+}
+
+* {
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+.Avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.Avatar img {
+        width: 100%; /* Make the image fill the Avatar div */
+        height: 100%; /* Make the image fill the Avatar div */
+        object-fit: cover; /* Maintain aspect ratio */
+}
+
+h5 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: underline;
+    cursor: auto;
+    text-align: center;
+}
+
+.Text {
+    text-align: center;
+}
